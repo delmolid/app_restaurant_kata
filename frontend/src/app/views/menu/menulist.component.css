@@ -1,0 +1,38 @@
+.menu-container {
+    padding: 20px;
+    background-color: #E5B5B5;
+    min-height: 100vh;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-item {
+    display: flex;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.menu-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    background-color: #ccc;
+}
+
+.menu-details {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.order-button {
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
