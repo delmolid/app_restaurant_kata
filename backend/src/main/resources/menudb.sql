@@ -25,8 +25,8 @@ CREATE TABLE IF NOT EXISTS `menu`(
 -- Ajout des données
 INSERT INTO menu (nom, image, description, prix) 
 VALUES (
-    'Hello World Burger',
-    'https://lagrandeourse.design/wp-content/uploads/2021/03/Burger-menu-ou-menu-latéral-_-pour-ou-contre-_.jpg',
+    'HAMBURGER',
+    'https://img.freepik.com/psd-premium/hamburger-cheeseburger-dessus-laitue-verte-dessus_1224819-5728.jpg?w=1380',
     'Un cheeseburger classique (pain, steak, fromage, salade, sauce)',
     10.00
 );
@@ -34,14 +34,14 @@ VALUES (
 INSERT INTO menu (nom, image, description, prix) 
 VALUES (
     'Frites maison',
-    'https://lagrandeourse.design/wp-content/uploads/2021/03/Burger-menu-ou-menu-latéral-_-pour-ou-contre-_.jpg',
+    'https://img.freepik.com/photos-gratuite/vue-cote-frites-assaisonnement_141793-4899.jpg?t=st=1743520841~exp=1743524441~hmac=ba17d9bf01055b86309e3bd28a929759cb45207c4f5cb69b122ee16d02cfc636&w=2000',
     'Des frites maison avec une sauce mystère (choisie aléatoirement par le backend !)',
-    20.00
+    2.00
 );
 INSERT INTO menu (nom, image, description, prix) 
 VALUES (
-    'JSON Nuggets',
-    'https://lagrandeourse.design/wp-content/uploads/2021/03/Burger-menu-ou-menu-latéral-_-pour-ou-contre-_.jpg',
+    'Nuggets',
+    'https://img.freepik.com/psd-gratuit/nuggets-poulet-croustillants-frites-repas-delicieux_84443-36785.jpg?t=st=1743520560~exp=1743524160~hmac=b2af7be12dc626c440bcb9ef22adc9373af7062d356d09be3463dcbf1095b018&w=1380',
     'Nuggets de poulet avec 3 sauces au choix (ketchup, mayo, barbecue)',
     7.00
 );

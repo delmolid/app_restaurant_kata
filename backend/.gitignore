@@ -40,17 +40,18 @@ out/
 *.log
 logs/
 
-### Application Properties avec informations sensibles ###
+### Application Properties ###
 src/main/resources/application-prod.properties
 src/main/resources/application-dev.properties
+application-local.properties
+application-local.yml
 
-### Fichiers système ###
+### System files ###
 .DS_Store
 Thumbs.db
 
-### Fichiers de configuration locaux ###
-application-local.properties
-application-local.yml
+### Test coverage ###
+/coverage/
 
 ### Fichiers de dépendances ###
 node_modules/
