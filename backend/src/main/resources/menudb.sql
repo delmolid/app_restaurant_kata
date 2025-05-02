@@ -24,8 +24,9 @@ CREATE TABLE IF NOT EXISTS `menu`(
 
 -- Ajout des données
 INSERT INTO menu (nom, image, description, prix) 
+
 VALUES (
-    'HAMBURGER',
+    'pates',
     'https://img.freepik.com/psd-premium/hamburger-cheeseburger-dessus-laitue-verte-dessus_1224819-5728.jpg?w=1380',
     'Un cheeseburger classique (pain, steak, fromage, salade, sauce)',
     10.00
